@@ -13,9 +13,17 @@
 </head>
 <body>
 
-<form>
-    Create Word :
-    <input type="text" name="CreatedWord">
+<form action = "">
+    <fieldset>
+        <label>Type your name: </label>
+        <input type = "text"
+               id = "txtName" />
+        <input type = "button"
+               value = "click me"
+               onclick = "sayHi()"/>
+        <input type = "text"
+               id = "txtOutput" />
+    </fieldset>
 </form>
 
 <div id="draggable" class="ui-widget-content" value="CreatedWord">
