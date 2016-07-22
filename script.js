@@ -2,10 +2,7 @@ $( function() {
     $( "#draggable" ).draggable();
 } );
 
-function sayHi(){
-    var txtName = document.getElementById("txtName");
-    var txtOutput = document.getElementById("txtOutput");
-    var name = txtName.value;
-    txtOutput.value = "Hi there, " + name + "!"
+function changeThis(){
+    var formInput = document.getElementById('theInput').value;
+    document.getElementById('newText').innerHTML = formInput;
 }
-
